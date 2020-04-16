@@ -2,7 +2,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  # if conditional statement
   lowest_number = 0
   empty_hash = nil
   name_hash.collect do |name, number|
@@ -12,5 +11,4 @@ def key_for_min_value(name_hash)
     end
   end
   empty_hash
-   binding.pry
 end
