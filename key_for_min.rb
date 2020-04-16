@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
     if lowest_number == 0 || number < lowest_number
       lowest_number = number
       empty_hash = name
+      binding.pry
     end
   end
   empty_hash
